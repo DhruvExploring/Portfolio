@@ -1,0 +1,2 @@
+Hey mentors!
+Open the index.html file on any browser to view the webpage. I did not have any projects to display therefore I have just numbered them and put some lorem ipsum text inside the description . The project icon however is clickable and links to another page, please visit that page as well. Hope you like it!

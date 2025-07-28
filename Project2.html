@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Project 2</title>
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0px 0px 0px 0px;
+            background-image:url(istockphoto-1136370254-612x612.jpg);
+        }
+        h1{
+        font-size: xx-large;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        
+        }
+        p{
+            font-size: large;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            
+
+        }
+
+        span {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+        span div{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 10px 20px 10px 20px;
+            border: 2px black solid;
+            background-color: #fef9ef;
+            transition: border 200ms;
+        }
+        span div:hover{
+            border: 4px black solid;
+            
+        }
+
+        span div h3{
+            font-size: x-large;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        h2{
+            font-size: x-large;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        iframe{
+            border: 3px black solid;
+            margin: 10px 20px 10px 20px;
+            transition: border 200ms;
+        }
+        iframe:hover{
+            border: 5px black solid;
+        }
+    </style>
+</head>
+<body>
+    <h1>Project 2</h1>
+    <p>Content loading soon! The person responsible for making them is still learning!</p>
+    <h2>Can I interest you in...</h2>
+
+    <span>
+        <div>
+        <h3>Some 8D Music?</h3>
+
+        <!-- So I wanted to add some video or music here and downloading them and then saving it in the folder was too much of an hassle. I remembered seeing these small youtube players on websites and when I searched on how to add them, I came across the "copy embed code" option on youtube videos. Which brings us here to these iframe semantics. -->
+         
+        <iframe width="700" height="400" src="https://www.youtube.com/embed/MQ5j7qYV_EY?list=RDMQ5j7qYV_EY" title="Sundar Sundar Wo Haseena Badi Sundar 8D Audio TRAP INDIA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        </div>
+
+    <div>
+    <h3>Switzerland from a drone?</h3>
+    <iframe width="700" height="400" src="https://www.youtube.com/embed/nHjy0tXdmOQ?list=PL4Gr5tOAPttJ247vzkv1ZbUEm_YtKLejH" title="BEAUTIFUL SWITZERLAND | AERIAL DRONE 4K VIDEO | Free HD Videos - No Copyright" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    </span>
+</body>
+</html>
