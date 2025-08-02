@@ -112,6 +112,14 @@ header h1{
     margin-top: 55px;
     border: 2px black solid;
 }
+#profile-image:hover {
+    width:300px;
+    border-radius: 300px;
+    height: 250px;
+    margin-left: 30px;
+    margin-top: 55px;
+    border: 3px black solid;
+}
 
 
 .description{
